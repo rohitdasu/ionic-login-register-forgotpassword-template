@@ -1,0 +1,26 @@
+<ion-content>
+  <div style="text-align: center; margin-top: 4rem;">
+    <img src="../../../assets/icon/favicon.png" />
+  </div>
+  <div style="margin: 2rem;">
+    <ion-item>
+      <ion-input
+        name="username"
+        [(ngModel)]="username"
+        type="text"
+        placeholder="username"
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input
+        name="password"
+        [(ngModel)]="password"
+        type="password"
+        placeholder="password"
+      ></ion-input>
+    </ion-item>
+    <div style="margin-top: 10px;">
+      <ion-button (click)="login()">Login</ion-button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,50 @@
+<ion-content>
+  <div style="text-align: center; margin-top: 4rem;">
+    <img src="../../../assets/icon/favicon.png" />
+  </div>
+  <div style="margin: 2rem;">
+    <ion-item>
+      <ion-input
+        name="fullname"
+        [(ngModel)]="fullname"
+        type="text"
+        placeholder="fullname"
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input
+        name="email"
+        [(ngModel)]="email"
+        type="email"
+        placeholder="email"
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input
+        name="phone"
+        [(ngModel)]="phone"
+        type="text"
+        placeholder="phone"
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input
+        name="username"
+        [(ngModel)]="username"
+        type="text"
+        placeholder="username"
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input
+        name="password"
+        [(ngModel)]="password"
+        type="password"
+        placeholder="password"
+      ></ion-input>
+    </ion-item>
+    <div style="margin-top: 10px;">
+      <ion-button (click)="register()">Register</ion-button>
+    </div>
+  </div>
+</ion-content>
